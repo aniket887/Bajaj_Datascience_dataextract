@@ -45,6 +45,29 @@ LAB_TESTS_REFERENCE = [
     "BLOOD SUGAR", "RBC COUNT", "WBC COUNT", "PLATELET COUNT",
     "NEUTROPHILS", "LYMPHOCYTES", "TRIGLYCERIDES", "CHOLESTEROL",
     "BILIRUBIN", "CREATININE", "UREA", "SODIUM", "POTASSIUM"
+    # Blood parameters
+            "hemoglobin", "hb", "rbc", "wbc", "platelet", "neutrophil", "lymphocyte", 
+            "monocyte", "eosinophil", "basophil", "hematocrit", "mcv", "mch", "mchc",
+            "rdw", "esr", "pcv", "tlc",
+            
+            # Liver function parameters
+            "bilirubin", "sgpt", "sgot", "alkaline phosphatase", "total protein", 
+            "albumin", "globulin", "a/g ratio", "gamma glutamyl", "transferase",
+            
+            # Kidney function parameters
+            "urea", "creatinine", "uric acid", "bun", "gfr",
+            
+            # Urine examination parameters
+            "color", "transparency", "specific gravity", "ph", "albumin", "sugar", 
+            "ketone", "urobilinogen", "pus cells", "rbc", "epithelial cells", 
+            "cast", "crystal", "bacteria", "yeast cells",
+            
+            # Lipid profile
+            "cholesterol", "triglyceride", "hdl", "ldl", "vldl",
+            
+            # Other common tests
+            "glucose", "sodium", "potassium", "chloride", "calcium", "phosphorus",
+            "magnesium", "tsh", "t3", "t4", "hba1c"
 ]
 
 def is_known_test(label: str) -> bool:
